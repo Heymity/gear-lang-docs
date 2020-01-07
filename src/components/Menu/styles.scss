@@ -1,0 +1,128 @@
+.container {
+  height: 7vh;
+  width: 100vw;
+  background-color: #20232A;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .logo {
+    width: 30%;
+    height: 100%;
+    display: inline-flex;
+    padding: 10px 35px;
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 2px;
+
+      align-self: center;
+    }
+
+    img {
+      padding-top: 10px;
+      display: inline-block;
+      width: 71px;
+      height: auto;
+
+      align-self: center;
+      margin-right: 10px;
+    }
+  }
+
+  .menu-links {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding-right: 200px;
+
+    li {
+      width: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 5px solid transparent;
+
+      &.menu-item {
+        cursor: pointer;
+
+        &.active {
+          border-bottom: 5px solid rgb(168, 168, 233);
+
+          a {
+            color: rgb(168, 168, 233);
+          }
+        }
+
+        a {
+          width: 100%;
+          height: calc(100% - 5px);
+          color: white;
+          text-decoration: none;
+          font-size: 20px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        
+        &:hover {
+          &.plain {
+            color: rgb(168, 168, 233);
+          }
+        }
+      }
+    }
+  }
+}
+
+.searchBar {
+  width: 300px;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .search-parent {
+    width: 260px;
+    height: 40px;
+    background-color: #282C34;
+  }
+
+  .search-icon {
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  input {
+    height: 40px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border-style: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

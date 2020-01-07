@@ -1,38 +1,55 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-
+import {Switch, Route} from 'react-router-dom';
 import './styles.scss';
 
 import Dropdown from './../Dropdown';
 
-const gettingStartedLinks = [
-  {
-    "name": "Installation",
-    "to": "/",
-  },
-  {
-    "name": "First App",
-    "to": "/",
-  },
-  {
-    "name": "Next Steps",
-    "to": "/",
-  },
-]
+//import content
+import gettingStartedLinks from './../../content/Getting Started';
+import guidesLinks from './../../content/Guides';
 
 export default function Sidebar() {
   return (
     <nav className="nav">
-      <div className="logo">
-        <Link to="/">GEAR</Link>
-      </div>
+      <Switch>
+        <Route path="/" component={() => {
+          return (
+            <ul className="links-container">
+              <Dropdown 
+                title="Getting Started"
+                links={gettingStartedLinks}
+              />
+      
+              <Dropdown 
+                title="Guides"
+                links={guidesLinks}
+              />
+            </ul>
+          );
+        }}/>
+        
+        <Route path="/docs" component={() => {
+          return (
+            <ul className="links-container">
+              <Dropdown 
+                title="Getting Started"
+                links={gettingStartedLinks}
+              />
+      
+              <Dropdown 
+                title="Guides"
+                links={guidesLinks}
+              />
+            </ul>
+          );
+        }}/>
 
-      <ul className="links-container">
-        <Dropdown 
-          title="Getting Started"
-          links={gettingStartedLinks}
-        />
-      </ul>
+        <Route path="/api" component={() => {
+          return (
+            <p>Not done</p>
+          );
+        }}/>
+      </Switch>
     </nav>
   );
 }
