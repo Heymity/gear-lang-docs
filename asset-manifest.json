@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gear-lang-docs/static/css/main.d1b05096.chunk.css",
+    "main.js": "/gear-lang-docs/static/js/main.02a84a6b.chunk.js",
+    "main.js.map": "/gear-lang-docs/static/js/main.02a84a6b.chunk.js.map",
+    "runtime-main.js": "/gear-lang-docs/static/js/runtime-main.0f132fc8.js",
+    "runtime-main.js.map": "/gear-lang-docs/static/js/runtime-main.0f132fc8.js.map",
+    "static/js/2.745bb57b.chunk.js": "/gear-lang-docs/static/js/2.745bb57b.chunk.js",
+    "static/js/2.745bb57b.chunk.js.map": "/gear-lang-docs/static/js/2.745bb57b.chunk.js.map",
+    "index.html": "/gear-lang-docs/index.html",
+    "precache-manifest.a2eefab5e2a16b49099afc3ba868be0b.js": "/gear-lang-docs/precache-manifest.a2eefab5e2a16b49099afc3ba868be0b.js",
+    "service-worker.js": "/gear-lang-docs/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/gear-lang-docs/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.745bb57b.chunk.js.LICENSE": "/gear-lang-docs/static/js/2.745bb57b.chunk.js.LICENSE",
+    "static/media/logo.svg": "/gear-lang-docs/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f132fc8.js",
+    "static/js/2.745bb57b.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.02a84a6b.chunk.js"
+  ]
+}
