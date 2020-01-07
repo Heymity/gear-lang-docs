@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e194bd2f313ec40c3b0f196e05717a03",
+    "revision": "61ef6253ca924dfae17de9454f2fd9a3",
     "url": "/gear-lang-docs/index.html"
   },
   {
-    "revision": "cf6f04859cea1cfcdfc3",
+    "revision": "06d7ba73ea998ef2329a",
     "url": "/gear-lang-docs/static/css/main.41dad709.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gear-lang-docs/static/js/2.af9235cb.chunk.js.LICENSE"
   },
   {
-    "revision": "cf6f04859cea1cfcdfc3",
-    "url": "/gear-lang-docs/static/js/main.a20a0b8b.chunk.js"
+    "revision": "06d7ba73ea998ef2329a",
+    "url": "/gear-lang-docs/static/js/main.31bdaa50.chunk.js"
   },
   {
     "revision": "d39387b9a4c108278b2e",
